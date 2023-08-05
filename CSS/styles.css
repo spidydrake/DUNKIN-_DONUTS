@@ -50,6 +50,13 @@ div.top-nav {
     border-bottom: 1px solid rgb(211, 211, 211);
 }
 
+.info {
+    background-color: var(--darkpink);
+    color: var(--white);
+    text-align: center;
+    padding: 13px;
+}
+
 .buttons {
     border: 2px solid var(--brown);
     border-radius: 50px;
@@ -94,7 +101,7 @@ li {
 
 .main-screen {
     display: flex;
-    background-image: url("/images/Manage_Profile_Header_Desktop.png");
+    /* background-image: url("/images/Manage_Profile_Header_Desktop.png"); */
     /* width: 100%; */
     background-repeat: no-repeat;
     background-size: 100%;
