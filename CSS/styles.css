@@ -18,8 +18,13 @@
     color: var(--orange);
 }
 
+.brown {
+    color: var(--brown);
+}
+
 body {
     background-color: rgb(236, 231, 224);
+    height: 2000px;
 }
 
 .fixed-class {
@@ -68,6 +73,30 @@ div.top-nav {
     text-transform: uppercase;
 }
 
+a.buttons:hover {
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
+
+.utility {
+    display: inline;
+    width: 175px;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.overide-career {
+    /* display: flex; */
+    background-color: var(--white);
+    width: 100%;
+    text-align: left;
+    /* position: relative; */
+}
+
+.icon {
+    /* display: inline; */
+}
+
 .pink {
     background-color: var(--darkpink);
     border-color: var(--darkpink);
@@ -79,55 +108,76 @@ div.top-nav {
     border-style: solid;
 }
 
+/* navabr element */
 .navbar {
     width: auto;
-    height: 50px;
-    align-content: center;
-    justify-content: center;
+    /* align-content: center; */
+    /* justify-content: center; */
     text-transform: uppercase;
-    padding: 15px 0px;
+    /* padding: 15px; */
 }
 
 ul {
     display: flex;
-    align-content: center;
+    flex-direction: row;
+    /* align-content: center; */
     justify-content: center;
+    font-size: 1.28rem;
+    font-weight: bold;
 }
 
 li {
-    display: inline;
-    padding: 0px 5%;
+    /* display: inline; */
+    padding: 15px 4%;
+    text-align: center;
+    align-self: center;
+}
+
+li:hover{
+    color: var(--darkpink);
+    text-decoration: underline;
 }
 
 .main-screen {
+    position: relative;
     display: flex;
     /* background-image: url("/images/Manage_Profile_Header_Desktop.png"); */
     /* width: 100%; */
     background-repeat: no-repeat;
     background-size: 100%;
-    height: auto;
+    /* height: auto; */
     min-width: 640px;
     text-align: center;
     text-transform: uppercase;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     /* font-weight: bolder; */
     /* font-size: 50px; */
     /* line-height: 28px;    */
 }
 
+.image {
+    width: 100%;
+    height: auto;
+}
+
 .title-content {
-    align-content: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
 }
 
 .trademark {
+    /* position: relative; */
     vertical-align: baseline;
     font-size: 5px;
-    position: relative;
 }
 
 .center-1 {
     color: var(--orange);
+    font-size:  3.3vw;
 }
 
 .center-2 {
@@ -136,4 +186,5 @@ li {
 
 .center-3 {
     color: var(--brown);
+    font-size: 4vw;
 }
