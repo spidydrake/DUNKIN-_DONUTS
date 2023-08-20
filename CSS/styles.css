@@ -11,10 +11,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'dunkinFont';
     /* list-style: none; */
     /* font-family: "Ubuntu", sans-serif; */
     border: none;
-    font-family: 'dunkinFont';
 }
 
 :root {
@@ -23,6 +23,7 @@
     --darkpink: #c63663;
     --orange: #ef6a00;
     --grey: #747474;
+    --cream: #fbf1dd;
     --borderColor: rgb(221, 216, 209);
 }
 
@@ -39,8 +40,8 @@
 }
 
 body {
-    background-color: var(--borderColor);
-    height: 2000px;
+    background-color: rgb(244, 241, 238);
+    /* height: 4000px; */
 }
 
 .fixed-class {
@@ -181,7 +182,6 @@ li.navs:hover{
 .main-screen {
     position: relative;
     display: flex;
-    /* background-image: url("/images/Manage_Profile_Header_Desktop.png"); */
     /* width: 100%; */
     background-repeat: no-repeat;
     background-size: 100%;
@@ -302,14 +302,17 @@ div.interactive-images:hover {
     padding: 10px 0;
     margin-top: 60px;
     /* flex-direction: column; */
+    font-family: "Ubuntu";
     border-top: 1px solid var(--borderColor);
 }
 
 .second-grid {
     display: flex;
+    /* font-family: "Ubuntu"; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
 }
 
 .points {
@@ -321,4 +324,49 @@ div.interactive-images:hover {
     float: left;
     width: 50%;
     /* padding: 50px; */
+}
+
+.sec-slide-1 {
+    margin-top: 20px;
+    width: 555px;
+    font-size: 24px;
+    font-family: "Ubuntu";
+    font-weight: lighter;
+    text-align: center;
+}
+
+.sec-slide-2 {
+    margin-top: 20px;
+}
+
+.large-banner-third {
+    border-top: 1px solid var(--borderColor);
+    background-color: var(--cream);
+    background-image: url(/assets/Pumpkin_home_desktop.png);
+    background-repeat: no-repeat;
+    height: 415px;
+}
+
+.third-content {
+    margin-left: 570px;
+}
+
+.fourth-banner {
+    background-color: #dc87a2;
+    height: 357px;
+}
+
+.fifth-banner {
+    background-color: #747474;
+    height: 312px;
+}
+
+.sixth-banner {
+    background-color: #f8b47c;
+    height: 558px;
+}
+
+.footer {
+    background-color: #a25097;
+    height: 449px;
 }
