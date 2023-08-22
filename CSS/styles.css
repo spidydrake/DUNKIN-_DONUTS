@@ -11,7 +11,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'dunkinFont';
+    /* font-family: 'dunkinFont'; */
     /* list-style: none; */
     /* font-family: "Ubuntu", sans-serif; */
     border: none;
@@ -37,6 +37,10 @@
 
 .brown {
     color: var(--brown);
+}
+
+.darkpink {
+    color: var(--darkpink);
 }
 
 body {
@@ -69,6 +73,7 @@ div.top-nav {
     justify-content: end;
     align-items: center;
     border-bottom: 1px solid var(--borderColor);
+    font-family: 'dunkinFont';
 }
 
 .info {
@@ -76,6 +81,7 @@ div.top-nav {
     color: var(--white);
     text-align: center;
     padding: 13px;
+    font-family: 'dunkinFont';
 }
 
 .buttons {
@@ -161,6 +167,10 @@ ul.nav {
 
 .midDunk {
     font-size: 2.5rem;
+    margin: 15px 4%;
+    text-align: center;
+    align-self: center;
+    font-family: 'dunkinFont';
 }
 
 li.navs {
@@ -171,6 +181,7 @@ li.navs {
     align-self: center;
     border-bottom: 3px solid transparent;
     transition: 0.15s ease-in;
+    font-family: 'dunkinFont';
 }
 
 li.navs:hover{
@@ -191,6 +202,7 @@ li.navs:hover{
     text-transform: uppercase;
     /* justify-content: center; */
     flex-direction: column;
+    font-family: 'dunkinFont';
     /* font-weight: bolder; */
     /* font-size: 50px; */
     /* line-height: 28px;    */
@@ -208,6 +220,7 @@ li.navs:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
+    letter-spacing: 0.3vw;
     /* font-weight: 800; */
 }
 
@@ -265,6 +278,7 @@ div.interactive-images:hover {
     text-align: center;
     color: var(--brown);
     padding-bottom: 20px;
+    font-family: 'dunkinFont';
 }
 
 .interactive-images-text-bottom {
@@ -292,6 +306,7 @@ div.interactive-images:hover {
     border-width: 1.6px;
     margin: 7px;
     line-height: 16px;
+    font-family: 'dunkinFont';
     /* text-align: center; */
 }
 
@@ -304,6 +319,7 @@ div.interactive-images:hover {
     /* flex-direction: column; */
     font-family: "Ubuntu";
     border-top: 1px solid var(--borderColor);
+
 }
 
 .second-grid {
@@ -326,17 +342,28 @@ div.interactive-images:hover {
     /* padding: 50px; */
 }
 
+.sec-slide-0 {
+    /* margin-top: 20px; */
+    font-family: 'dunkinFont';
+    text-transform: uppercase;
+    color: var(--brown);
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
 .sec-slide-1 {
     margin-top: 20px;
     width: 555px;
     font-size: 24px;
     font-family: "Ubuntu";
-    font-weight: lighter;
+    /* font-weight: lighter; */
     text-align: center;
 }
 
 .sec-slide-2 {
     margin-top: 20px;
+    font-size: 18px;
 }
 
 .large-banner-third {
