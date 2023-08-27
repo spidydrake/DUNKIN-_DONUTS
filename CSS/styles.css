@@ -174,7 +174,7 @@ ul.nav {
 }
 
 li.navs {
-    /* display: inline; */
+    display: inline-block;
     /* padding: 15px 4%; */
     margin: 15px 4%;
     text-align: center;
@@ -270,7 +270,7 @@ li.navs:hover{
 
 div.interactive-images:hover {
     /* padding: 0px; */
-    transform: scale(1.1);
+    transform: scale(1.08);
 }
 
 .interactive-images-text {
@@ -375,12 +375,55 @@ div.interactive-images:hover {
 }
 
 .third-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-left: 570px;
+    text-align: center;
+    height: inherit;
 }
 
 .fourth-banner {
-    background-color: #dc87a2;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: #dc87a2; */
     height: 357px;
+    border-top: 1px solid var(--borderColor);
+}
+
+.fourthBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-text h3 {
+    font-family: "Ubuntu";
+    color: var(--brown);
+    padding-bottom: 10px;
+}
+
+.fourth-text h2 {
+    font-family: "DunkinFont";
+    color: var(--darkpink);
+}
+
+.espresso {
+    width: 50%;
+    border-right: 1px solid var(--borderColor);
+}
+
+.sandwitch {
+    width: 25%;
+    border-right: 1px solid var(--borderColor);
+}
+
+.hotCoffee {
+    width: 25%;
 }
 
 .fifth-banner {
