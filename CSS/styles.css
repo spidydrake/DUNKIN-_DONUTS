@@ -427,16 +427,43 @@ div.interactive-images:hover {
 }
 
 .fifth-banner {
-    background-color: #747474;
-    height: 312px;
+    position: relative;
+    display: flex;
+    border-top: 1px solid var(--borderColor);
+}
+
+.fifth_text {
+    position: absolute;
+    /* display: flex; */
+    width: 100%;
+    text-align: center;
+    padding: 59px 20px 10px 20px;
 }
 
 .sixth-banner {
-    background-color: #f8b47c;
-    height: 558px;
+    /* background-color: #f8b47c; */
+    /* height: 558px; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-top: 1px solid var(--borderColor);
+}
+
+.map {
+    display: flex;
+    /* width: 70%; */
+}
+
+.sixth_text {
+    /* position: absolute; */
+    /* display: flex; */
+    /* width: 100%; */
+    text-align: center;
+    /* padding: 59px 20px 10px 20px; */
 }
 
 .footer {
-    background-color: #a25097;
+    /* background-color: #a25097; */
     height: 449px;
+    border-top: 1px solid var(--borderColor);
 }
