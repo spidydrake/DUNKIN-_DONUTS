@@ -64,7 +64,7 @@ div.body {
     border-style: none solid;
     border-color: rgb(157, 157, 157);
     border-width: 1px;
-    margin: 0px 3%;
+    margin: 0px 1%;
 }
 
 div.top-nav {
@@ -208,9 +208,6 @@ li.navs:hover{
     /* justify-content: center; */
     flex-direction: column;
     font-family: 'dunkinFont';
-    /* font-weight: bolder; */
-    /* font-size: 50px; */
-    /* line-height: 28px;    */
 }
 
 .image {
@@ -422,10 +419,14 @@ div.interactive-images:hover {
 .sandwitch {
     width: 25%;
     border-right: 1px solid var(--borderColor);
+    padding-top: 40px;
+    text-align: center;
 }
 
 .hotCoffee {
     width: 25%;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .fifth-banner {
@@ -514,6 +515,7 @@ ul .socials {
 
 .partners {
     display: flex;
+    /* flex-direction: row; */
     width: 100%;
     justify-content: center;
     align-items: center;
