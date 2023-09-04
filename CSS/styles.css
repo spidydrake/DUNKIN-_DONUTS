@@ -152,38 +152,32 @@ div.top-nav {
 
 /* navabr element */
 .navbar {
-    max-width: auto;
-    /* align-content: center; */
-    /* justify-content: center; */
+    width: 100%;
     text-transform: uppercase;
-    /* padding: 15px; */
 }
 
 ul.nav {
-    /* max-width: auto; */
     display: flex;
-    flex-direction: row;
-    list-style: none;
-    /* align-content: center; */
-    justify-content: center;
     font-size: 1.1rem;
-    /* font-weight: bold; */
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    /* overflow: hidden; */
+    justify-content: center;
 }
 
 .midDunk {
     font-size: 2.5rem;
     margin: 15px 4%;
     text-align: center;
-    align-self: center;
     font-family: 'dunkinFont';
 }
 
 li.navs {
-    display: inline-block;
-    /* padding: 15px 4%; */
-    margin: 15px 4%;
+    display: inline;
+    width: 20%;
+    /* margin: 15px 3%; */
     text-align: center;
-    align-self: center;
     border-bottom: 3px solid transparent;
     transition: 0.15s ease-in;
     font-family: 'dunkinFont';
