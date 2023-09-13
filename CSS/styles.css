@@ -176,17 +176,35 @@ ul.nav {
 li.navs {
     display: inline;
     width: 20%;
+    padding: 0 24px;
     /* margin: 15px 3%; */
     text-align: center;
-    border-bottom: 3px solid transparent;
     transition: 0.15s ease-in;
     font-family: 'dunkinFont';
 }
 
-li.navs:hover{
+li.navs p {
+    border-bottom: 3px solid transparent;
+}
+
+li.navs p:hover{
     color: var(--darkpink);
     /* text-decoration: underline; */
     border-bottom: 3px solid #dc87a2;
+}
+
+@media screen and (max-width: 1000px) {
+    li.navs:nth-child(2), 
+    li.navs:nth-child(6), 
+    li.navs:nth-child(7),
+    li.midDunk {
+        display: none;
+    }
+
+    li.navs {
+        width: 33.3%;
+        padding: 14px 0;;
+    }
 }
 
 .main-screen {
@@ -246,6 +264,7 @@ li.navs:hover{
     margin-top: 50px;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .grid-select {
@@ -253,6 +272,12 @@ li.navs:hover{
     /* height: 313px; */
     /* background-color: #36c6a2; */
     margin: 0 20px;
+}
+
+@media screen and (max-width: 950px) {
+    .large-select-grid {
+        flex-direction: column;
+    }
 }
 
 .interactive-images {
@@ -336,6 +361,11 @@ div.interactive-images:hover {
     /* padding: 50px; */
 }
 
+h2 {
+    font-family: 'dunkinFont';
+    font-size: 60px;
+}
+
 .sec-slide-0 {
     /* margin-top: 20px; */
     font-family: 'dunkinFont';
@@ -400,7 +430,7 @@ div.interactive-images:hover {
     padding-bottom: 10px;
 }
 
-.fourth-text h2 {
+.fourth-text h1 {
     font-family: "DunkinFont";
     color: var(--darkpink);
 }
@@ -521,9 +551,6 @@ ul .socials {
 }
 
 .BR {
-    /* display: flex; */
-    /* width: 100%; */
-    /* justify-items: right; */
     justify-content: right;
     padding: 0 30px;
 }
